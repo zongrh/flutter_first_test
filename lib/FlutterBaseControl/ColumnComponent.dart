@@ -195,3 +195,41 @@ class NewCardLayout extends StatelessWidget {
     );
   }
 }
+
+class PositionScreen extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: Stack(
+        children: <Widget>[
+          Positioned(
+            top: 100.0,
+            left: 0,
+            right: 0,
+            child: Container(
+              color: Colors.blue,
+              child: Text("第一个组件"),
+            ),
+          ),
+          Positioned(
+            top: 200,
+            right: 100,
+            child: Container(
+              color: Colors.yellow,
+              child: Text("第二个组件"),
+            ),
+          ),
+          Positioned(
+            bottom: 0,
+            left: 0,
+            right: 0,
+            child: Container(
+              color: Colors.red,
+              child: Text("第三个组件"),
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+}

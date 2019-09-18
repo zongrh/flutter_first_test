@@ -24,6 +24,64 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^0.1.2
 
+
+  custom_widgets:
+    path: custom_widgets/
+
+  jd_address_selector:
+    path: jd_address_selector/
+  package_info: ^0.4.0+6
+
+  # banner
+  flutter_swiper: ^1.1.6
+
+  # 时间线 https://github.com/furkantektas/timeline_list
+  timeline_list: ^0.0.5
+
+  # 视频播放器器
+  video_player: ^0.10.2
+
+
+  # 图片选择器
+  image_picker: ^0.6.1+4
+
+  #
+  rounded_letter: ^0.0.6
+
+  contact_picker: ^0.0.2
+
+  # 瀑布流
+  flutter_staggered_grid_view: ^0.3.0
+  #  评分
+  clippy_flutter: ^1.1.0
+  #  调色板
+  palette_generator: ^0.2.0
+  url_launcher: ^5.1.2
+#  城市选择
+  city_picker: ^0.1.4
+#  ios 城市选择
+  city_pickers: ^0.1.25
+  # 设备信息
+  device_info: ^0.4.0+2
+
+  # 扫描二维码
+  barcode_scan: ^1.0.0
+  # flutter 生成二维码
+  qr_flutter: ^3.0.1
+  # 图表
+  charts_flutter: ^0.8.0
+  # 侧滑菜单
+  flutter_inner_drawer: ^0.4.0
+  # 颜色选择器
+  flutter_colorpicker: ^0.2.6
+
+  # 刷新加载控件
+  flutter_easyrefresh: ^2.0.4
+  # 滑动视差效果图片 https://github.com/pulyaevskiy/parallax-image
+  parallax_image: ^0.3.1
+  #  定位
+  amap_base_location: ^0.4.0+1
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -46,6 +104,7 @@ flutter:
     - images/3eerwrew.png
     - images/timg.jpeg
     - images/test1.jpg
+    - images/ic_share.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.

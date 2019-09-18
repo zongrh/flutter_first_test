@@ -18,7 +18,7 @@ Cupertino有很多Widget属性，都是Cupertino开头的
 
 import 'package:flutter/cupertino.dart';
 
-class YQLateralSpreads extends StatelessWidget {
+class MyLateralSpreads extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     // TODO: implement build
@@ -32,7 +32,7 @@ class YQLateralSpreads extends StatelessWidget {
             child: Icon(CupertinoIcons.add),
             onPressed: () {
               Navigator.of(context).push(CupertinoPageRoute(builder: (BuildContext context) {
-                return YQLateralSpreads();
+                return MyLateralSpreads();
               }));
             },
           ),

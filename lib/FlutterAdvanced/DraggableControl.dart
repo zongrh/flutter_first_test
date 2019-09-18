@@ -1,11 +1,11 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-class YQDraggable extends StatefulWidget {
+class MyDraggable extends StatefulWidget {
   _MyDraggableState createState() => _MyDraggableState();
 }
 
-class _MyDraggableState extends State<YQDraggable> {
+class _MyDraggableState extends State<MyDraggable> {
   Color draggableColor = Colors.grey;
 
   @override
